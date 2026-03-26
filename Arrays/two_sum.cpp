@@ -1,3 +1,13 @@
+/*1. Two Sum
+
+Approach:
+- Used brute-force approach
+- Checked every pair of elements using nested loops
+- Returned indices when the sum equals the target
+
+Time Complexity:O(n^2) 
+Space Complexity: O(1)*/
+
 class Solution {
 public:
     vector<int> twoSum(vector<int>& nums, int target) {
