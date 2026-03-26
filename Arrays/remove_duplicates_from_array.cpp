@@ -1,3 +1,14 @@
+/*26. Remove Duplicates from Array
+
+Approach:
+- Since the array is sorted, duplicates are adjacent
+- Compared each element with the previous one
+- Stored unique elements in a new array
+- Copied back to original array
+
+Time Complexity: O(n) 
+space Complexity: O(n)*/
+
 class Solution {
 public:
     int removeDuplicates(vector<int>& nums) {
